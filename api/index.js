@@ -13,9 +13,6 @@ let kipasData = {
 };
 let storedUid = "";
 
-app.get('*', (req, res) => {
-    res.send('Hello from Express on Vercel!');
-});
 
 app.post('/api/postData', (req, res) => {
     const { value } = req.body;
