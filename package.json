@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx prisma generate",
-    "start": "node api/index.js"
+    "build": "npm install",
+    "start": "node api/index.js",
+    "postinstall": "npx prisma generate"
   },
   "keywords": [],
   "author": "",
